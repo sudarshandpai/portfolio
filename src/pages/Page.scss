@@ -117,17 +117,21 @@
 
 .side-panel-image-wrapper {
   height: 400px;
-  width: 700px;
+  width: 100%;
+  max-width: 500px;
   margin-left: 96px;
   @media (max-width: 768px) {
     margin-left: 0px;
+    max-width: 100%;
+    padding: 0 16px;
   }
 }
 
 .side-panel-image {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center top;
 }
 
 .panel-header {

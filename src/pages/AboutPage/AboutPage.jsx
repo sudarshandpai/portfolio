@@ -8,10 +8,10 @@ const AboutPage = () => {
       <Page
         requireDarkRoom={true}
         panelContent={{
-          title: "About Us",
-          quote: "Revolutionizing architecture for the AI future.",
+          title: "About Me",
+          quote: "Love is beautyful BUT Mony is powerful.",
           content: [
-            "At Daniels Design & Dev, we believe architecture is more than just form—it’s an experience. Our studio exists to bridge the gap between design and technology, helping architects bring their visions to life through stunning visuals and interactive digital experiences. Whether it’s minimalist conceptual renderings, immersive real-time environments, or parametric design solutions, we craft every project with precision, emotion, and a deep respect for spatial storytelling.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.", 
           ],
         }}
         imageSrc={"/images/about.webp"}
@@ -21,3 +21,4 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
